@@ -1,0 +1,83 @@
+.inputcomp{
+    height: 100%;
+    width: 100%;
+}
+.inputcomp_nav{
+    height: 10%;
+    background-color: rgb(69, 136, 199);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.inputbox{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputbox input{
+    width:80%;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.inputbox button{
+    padding: 5px;
+    background-color: rgb(48, 148, 155);
+    width: 10%;
+    font-size: 1.5rem;
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+.list_items{
+    margin: 2rem 4rem;
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: .5rem;
+    box-shadow: 0 0 2px  gray;
+}
+.item p{
+    font-size: 1.5rem;
+    width:60%;
+    overflow-wrap: break-word;
+}
+.item button{
+    padding: 8px 1rem;
+    background-color: red;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: .2rem .4rem;
+}
+@media (max-width:600px){
+    .inputbox input{
+        width: 60%;
+    }
+    .inputbox button{
+        font-size: .9rem;
+        padding: 12px 8px;
+        width: 15%;
+    }
+    .list_items{
+        margin: 1rem auto;
+    }
+    .item button{
+        font-size: .6rem;
+        padding: .3rem .5rem;
+        margin: 2px;
+    }
+    .item p{
+        width: 50%;
+    }
+}
